@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Something went wrong</title>
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+    <style>
+      body { padding: 2rem; }
+      .card { max-width: 720px; margin: 0 auto; padding: 1.25rem; }
+      .muted { color: #9ca3af; }
+      a { color: #93c5fd; }
+    </style>
+  </head>
+  <body class="bg-slate text-slate">
+    <div class="card">
+      <h2>Internal Server Error</h2>
+      <p>Something went wrong while rendering the page.</p>
+      <p class="muted">
+        Try again in a moment, or visit
+        <a href="{{ url_for('debug_feeds') }}" target="_blank" rel="noopener">/debug/feeds</a>
+        to see feed status.
+      </p>
+      <p class="muted">The server logs contain the exact error and traceback.</p>
+      <p><a href="{{ url_for('index') }}">Go back home</a></p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+/* Base theme */
+body { background:#0f172a; color:#e5e7eb; font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji","Segoe UI Emoji"; }
+a, a:visited { color:#93c5fd; text-decoration:none }
+a:hover { text-decoration:underline }
+
+.sticky-topbar { position:sticky; top:0; z-index:1020; background:#0f172a; padding:.75rem 0; border-bottom:1px solid #1f2937; }
+.bg-slate { background:#0f172a; }
+.text-slate { color:#e5e7eb; }
+
+.card { background:#111827; border:1px solid #1f2937; box-shadow:0 4px 14px rgba(0,0,0,.25); }
+.card .card-text { color:#d1d5db; }
+.source, .timeago { color:#9ca3af; font-size:.9rem; }
+.topic-tag { color:#a5b4fc; font-weight:600; }
+.btn-success { background:#159a6b; border-color:#159a6b; }
+.btn-success:hover { background:#12855c; border-color:#12855c; }
+.form-control { background:#0b1222; color:#e5e7eb; border:1px solid #1f2937; }
+.form-control:focus { background:#0b1222; color:#fff; border-color:#2563eb; box-shadow:none; }
+.form-check-input:checked { background-color:#2563eb; border-color:#2563eb; }
+
+/* High-contrast Markdown lists in summary */
+.summary-md li { margin: .15rem 0 .15rem .2rem; }
+.summary-md a { color:#93c5fd; }
+.summary-md strong { color:#fff; }
