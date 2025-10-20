@@ -26,3 +26,7 @@ python app.py
 ## Notes
 - Uses only free RSS sources (no API keys).
 - Keep `NEWS_APP_SECRET` secret in production.
+
+
+## Some Images from my App
+<img width="1503" height="873" alt="image" src="https://github.com/user-attachments/assets/207d753e-a314-4f42-b339-5ec552c71bff" />
